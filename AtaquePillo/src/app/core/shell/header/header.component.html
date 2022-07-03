@@ -1,0 +1,29 @@
+<header>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark align-items-center fixed-top">
+    <div class="dropdown row">
+        <a routerLink="/">
+            <img src="./assets/personajes.jpeg" class="logo" tittle="Home" >
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ejercicioProto"
+        aria-controls="navbarSupportedContent" aria-controls = "ejercicioProto" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="ejercicioProto">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown pt-3" routerlinkactive ="router-link-active">
+            <a class="nav-link dropdown-toggle lera" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Propietarios
+            </a>
+            <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item text-warning" routerLink = "propietarios"> Todos</a>
+              <a class="dropdown-item text-warning" routerLink ="propietarios/formulario">Crear Propietario</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </nav>
+</header>
